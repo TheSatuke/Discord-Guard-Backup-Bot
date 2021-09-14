@@ -1,1 +1,1 @@
-[image](https://prnt.sc/1s5vt71)
+(https://prnt.sc/1s5vt71)
