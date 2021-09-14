@@ -1,2 +1,1 @@
-# UFAK Görsel
-![image](https://prnt.sc/1s5vt71)
+[image](https://prnt.sc/1s5vt71)
