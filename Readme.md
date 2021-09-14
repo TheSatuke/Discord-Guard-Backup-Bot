@@ -20,7 +20,8 @@
 ```
 
 - Ufak Görseller
-[My image](username.github.com/Images/indir.png)
+- 
+[images](username.github.com/Images/indir.png)
 
 # Önemli Bilgiler!
 Selam dostlarım, kendi yaptığım ve 1 ay önce kullandığım guard altyapımı burda paylaşıcam ve coğu paylasılan altyapıdan sağlam olduğunu düşünüyorum, işinizi görürse **Starlamayı** unutma!
