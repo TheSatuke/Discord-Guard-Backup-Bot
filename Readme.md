@@ -19,9 +19,9 @@
 }
 ```
 
-- Ufak Görseller
+![images](https://user-images.githubusercontent.com/Images/indir.png)
 
-![image](https://user-images.githubusercontent.com/Images/indir.png)
+
 
 # Önemli Bilgiler!
 Selam dostlarım, kendi yaptığım ve 1 ay önce kullandığım guard altyapımı burda paylaşıcam ve coğu paylasılan altyapıdan sağlam olduğunu düşünüyorum, işinizi görürse **Starlamayı** unutma!
