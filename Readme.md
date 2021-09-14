@@ -1,1 +1,1 @@
-![alt text](https://prnt.sc/1s5vt71)
+[My image](username.github.com/repository/img/image.jpg)
