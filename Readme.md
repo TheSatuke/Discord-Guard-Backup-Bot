@@ -1,7 +1,24 @@
 # Kurulum & Proje
+* Bu Alttaki Kısımları Doldur;
+* Install.bat Dosyasına Çift Tıkla (Modülleri Yükleyicek)
+* Start.bat Dosyasına Çift tıkla botun aktif!
+
+```javascript
+{
+    "Prefix": ".", // Prefix
+    "Developer": [""], // Your ID
+    "TokenFalan": "", // Your Bot Token
+    "RedEmoji": "❌", // No Reaction
+    "OnayEmoji": "✅", // Yes Reaction 
+    "BotStatus": "Created By Satuké ❤️.", // Bot Status 
+    "guildID": "", // Your Server ID
+    "İnviteLog": "", // İnvite Log
+    "botVoiceChannelID": "", //Bot Voice Channel
+    "color": "#00ffa4", // Embed Color  
+    "MongoDB":"" // MongoDB Connect
+}
 ```
-* Yakında..
-```
+
 # Önemli Bilgiler!
 Selam dostlarım, kendi yaptığım ve 1 ay önce kullandığım guard altyapımı burda paylaşıcam ve coğu paylasılan altyapıdan sağlam olduğunu düşünüyorum, işinizi görürse **Starlamayı** unutma!
 
