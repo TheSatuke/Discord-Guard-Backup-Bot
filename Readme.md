@@ -1,1 +1,1 @@
-(https://prnt.sc/1s5vt71)
+![alt text](https://prnt.sc/1s5vt71)
