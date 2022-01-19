@@ -12,6 +12,10 @@ Ve npm i yazarak otomatik olarak gerekli tüm modülleri indirin.
 Bu işlem de bittikten sonra pencerede node satuke.js yazarak botunuzu çalıştırın!
 
 
+#Özellikler
+
+* Biliyorsunuz ortada dönen bir web site koruma sistemi var, bu projede bunun tam hali var iyi kullanımlar
+
 # Önemli Bilgiler!
 Selam dostlarım, kendi yaptığım ve 1 hafta önce kullandığım guard altyapımı burda paylaşıcam ve coğu paylasılan altyapıdan sağlam olduğunu düşünüyorum, işinizi görürse **Starlamayı** unutma!
 
