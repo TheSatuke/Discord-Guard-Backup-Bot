@@ -4,9 +4,9 @@
 * Herkesin bildiği gibi ilk önce bilgisayarınıza Node JS ve ayarları daha rahat yapa bilmek için bir editör (Örneğin Visual Studio Code) indirmeniz gerekiyor.
 * Ve veritabanı için bir MongoDB bağlantı linkinizin olması gerekiyor.
 
-* Not: Eğer MongoDB hakkında bilginiz yoksa Youtube gibi platformlardan ayrıntılı bilgi ala bilirsiniz.
+* Not: Eğer MongoDB hakkında bilginiz yoksa Youtube gibi platformlardan ayrıntılı bilgi alabilirsiniz.
 Projeyi zip dosyası halinde indirin ve herhangi bir klasöre zip dosyasını çıkarın.
-Sonra editörünüzde Settings.json dosyasına gelerek botunuzun ve sunucunuzun gerekli ayarlarını girin.
+Sonra editörünüzde `Settings.json` dosyasına gelerek botunuzun ve sunucunuzun gerekli ayarlarını girin.
 Daha sonra editörünüzün terminalini yada klasörünuzun bulunduğu dizinde cmd veya powershell penceresini açın.
 Ve npm i yazarak otomatik olarak gerekli tüm modülleri indirin.
 Bu işlem de bittikten sonra pencerede node satuke.js yazarak botunuzu çalıştırın!
