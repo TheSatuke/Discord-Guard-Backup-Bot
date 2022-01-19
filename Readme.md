@@ -12,7 +12,7 @@ Ve npm i yazarak otomatik olarak gerekli tüm modülleri indirin.
 Bu işlem de bittikten sonra pencerede node satuke.js yazarak botunuzu çalıştırın!
 
 
-#Özellikler
+# Özellikler
 
 * Biliyorsunuz ortada dönen bir web site koruma sistemi var, bu projede bunun tam hali var iyi kullanımlar
 
