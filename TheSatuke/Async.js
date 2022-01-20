@@ -40,36 +40,6 @@ Async.on("ready", async () => {
 
 
 
-const userRoles = require("../TheSatuke/Models/Web");
-let g = Settings.Server.OwnerID;
-let s = Settings.Server.GuildID;
-client.on("presenceUpdate", async (eski, yeni) => {
-  const stat = Object.keys(yeni.user.presence.clientStatus);
-  const embed = new MessageEmbed();
-  const channel = client.channels.cache.find((e) => e.name === Settings.Log.WebLog);
-  const roller = yeni.member.roles.cache.filter((e) => e.editable && e.name !== "@everyone" && [8, 4, 2, 16, 32, 268435456, 536870912].some((s) => e.permissions.has(s)));
-  if (!yeni.user.bot && yeni.guild.id === s && [8, 4, 2, 16, 32, 268435456, 536870912].some((e) => yeni.member.permissions.has(e)) ) {
-  const sunucu = client.guilds.cache.get(s);
-  if (g === yeni.user.id) return;
-  if (stat.find(e => e === "web")) {
-  await userRoles.findOneAndUpdate({ guildID: s, userID: yeni.user.id }, { $set: { roles: roller.map((e) => e.id) } }, { upsert: true });
-  await yeni.member.roles.remove(roller.map((e) => e.id), "Sekme Açma Şüphesi Yüzünden Yetkileri Alındı.");
-  if (channel) channel.send(`@everyone`)
-  channel.send(embed.setDescription(`${yeni.user.toString()} Sekme Açma Şüphesiyle Yetkileri Alındı \n\n**Rollerin Listesi:** \n${roller.map((e) => `<@&${e.id}>`).join("\n")}`).setAuthor(yeni.member.displayName, yeni.user.avatarURL({ dynamic: true })).setColor(Settings.Server.EmbedColor  ));
-    } 
-  }
-  if (!stat.find(e => e === "web")) {
-      const db = await userRoles.findOne({ guildID: s, userID: yeni.user.id });
-      if (!db) return;
-      if (db.roles || db.roles.length) {
-      await db.roles.map(e => yeni.member.roles.add(e, "Sekme Kapatma İşleni Yaptığı İçin Rolleri Geri Verildi.").then(async () => {
-      await userRoles.findOneAndDelete({ guildID: s, userID: yeni.user.id });
-      if (channel) channel.send(embed.setDescription(`${yeni.user.toString()} Sekme islemini geri aldı! \n\n**Rollerin Listesi:** \n${db.roles.map((e) => `<@&${e}>`).join("\n")}`).setAuthor(yeni.member.displayName, yeni.user.avatarURL({ dynamic: true })).setColor(Settings.Server.EmbedColor));}).catch(() => {}));
-    }
-  }
-});
-
-
 Async.on('warn', m => console.log(`[WARN]:${m}`));
 Async.on('error', m => console.log(`[ERROR]: ${m}`));
 Async.on("disconnect", () => console.log("Bot bağlantısı kesildi"))
